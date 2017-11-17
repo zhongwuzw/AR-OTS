@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CameraView : UIImageView
+@interface CameraView : UIView
+
+- (void)startCapture;
+- (void)stopCapture;
 
 @end
